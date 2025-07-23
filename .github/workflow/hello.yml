@@ -12,3 +12,6 @@ on:
         steps:
           - name: Echo mensajes
             run: echo "Hello word"
+          - name: dime la fecha
+            run: date
+            run: ls -l
