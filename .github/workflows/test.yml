@@ -1,0 +1,17 @@
+-name: say hello
+
+on:
+  push:
+    branches:
+       -main
+
+
+    jobs:
+      hello_word: 
+        runs-on: ubuntu_latest
+        steps:
+          - name: Echo mensajes
+            run: echo "Hello word"
+          - name: dime la fecha
+            run: date
+           
